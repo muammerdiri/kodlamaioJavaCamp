@@ -5,6 +5,6 @@ import core.log.abstracts.ILog;
 public class DatabaseLogger implements ILog {
     @Override
     public void log() {
-        System.out.println("Veri tabanına loglandı.");
+        System.out.println("Logged to database.");
     }
 }
